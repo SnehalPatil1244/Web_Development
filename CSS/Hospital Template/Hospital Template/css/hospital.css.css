@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navbar Style*/
+
+.navbar{
+   
+    
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 15%;
+    padding: 20px 0px 0px 20px ;
+}
+
+.nav-logo img{
+    height: 50px;
+    width: 100%;
+}
+
+.nav-elements{
+    height: 50px;
+    width: 80%;
+}
+
+.nav-elements ul,a{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px ;
+    font-size: large;
+}
+
+.nav-contact{
+    display: inline-flex;
+}
+.nav-contact p{
+    margin-top: 20px;
+}
+
+.nav-contact i{
+    margin-top: 40px;
+    padding: 0px 5px;
+}
+
+
+   
+   /* About Section Style */
+
+.about-section{
+    height: 500px;
+    background-color: blue;
+    display: flex;
+}
+ 
+.about{
+    height:500px ;
+    width: 50%;
+    background-color: #54667A;
+    background-image: url(../images/doctor.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.about p,h2{
+    margin-top: 20px; 
+    padding: 10px 20px;
+    font-family: karla, sans-serif;
+    color: #aab9ca;
+}
+
+.about-button{
+    padding: 10px 20px;
+    background-color: #51B8F2;
+    color: white;
+    margin-left: 20px;
+}
+
+
+/* Services Section Style */
+
+.services{
+    height:500px ;
+    width: 50%;
+    background-color: #51B8F2;
+}
+
+.services p{
+    padding: 30px 0px 0px 20px;
+    font-family: karla, sans-serif;
+    color:  #d0eeff;;
+}
+
+
+.services-list{
+    display: flex;
+    color: white;
+    padding: 40px;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.list-button{
+    padding: 10px 20px;
+    background-color: white;
+    color: blue;
+    margin-left: 20px;
+
+}
+
+
+
+/* Doctors Section Style */
+
+.doctors-section{
+    height: 600px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.doctor-header h2,h5{
+    text-align: center;
+    padding: 10px;
+}
+
+.doctors-name{
+    height: 40px;
+    width: 200px;
+    background-color:#51B8F2;
+    color: white;
+    display: inline-block;
+    padding: 20px 0px 0px 20px;
+}
+
+.know-more{
+    color: blue;
+    float: left ;
+}
+
+.child1{
+    height: 500px;
+    width: 30%;
+    border-left: 3px solid #51B8F2;
+    background-color: #F0F5FA;
+
+}
+
+.child2{
+    height: 500px;
+    width: 30%;
+    border-left: 3px solid #51B8F2;
+    background-color: #F0F5FA;
+}
+
+.child3{
+    height: 500px;
+    width: 30%;
+    border-left: 3px solid #51B8F2;
+    background-color: #F0F5FA;
+}
+
+
+/* Events Section Style */
+
+.events-header{
+    text-align: center;
+    margin: 10px;
+    line-height: 1%;
+}
+
+.news-events-section{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.newsone{
+    height: 600px;
+    width: 50%;
+    margin-left: 20px;
+    border-left: 2px solid blue;
+}
+
+.figcaption{
+    color: #54667a;
+    font-weight: bold;
+}
+
+.newsone-para{
+    padding-left: 20px;
+    color: black;
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.fournews{
+    height: 400px;
+    width: 50%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    gap: 20px;
+    align-content: space-around;
+}
+
+.news-text{
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 700;
+    color: #54667a;
+}
+
+.news1{
+    height: 280px;
+    width: 300px;
+}
+
+.news1-image img{
+    height: 220px;
+    width: 300px;
+}
+
+.news-span {
+    padding: 10px;
+}
+
+.news2{
+    height: 280px;
+    width: 300px;
+}
+
+.news3{
+    height: 280px;
+    width: 300px;
+}
+
+.news4{
+    height: 280px;
+    width: 300px;
+}
+
+.news-button{
+    height: 30px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: #51B8F2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

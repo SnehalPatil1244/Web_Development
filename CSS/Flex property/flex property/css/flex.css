@@ -1,0 +1,39 @@
+.flex-container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-content: center;
+
+    flex-wrap: wrap;
+gap: 50;
+   
+}
+.flex-container > div{
+    
+    margin: 10px;
+    width: 100px;
+    padding: 20px;
+
+    font-size: 30px;
+}
+.div1{
+    background-color: green;
+    height: 100;
+    width: 100;
+    
+}
+
+.div2{
+    background-color: pink;
+    height: 100;
+    width: 100;
+    
+}
+
+.div3{
+    background-color: yellow;
+    height: 100;
+    width: 100;
+    
+}

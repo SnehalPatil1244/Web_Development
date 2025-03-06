@@ -1,0 +1,15 @@
+.container{
+    border: solid black;
+}
+.row{
+    border:solid green;
+}
+.col{
+    border: red;
+}
+.green{
+    background-color: green;
+}
+.pink{
+    background-color: pink;
+}

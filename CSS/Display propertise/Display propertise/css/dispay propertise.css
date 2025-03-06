@@ -1,0 +1,59 @@
+p.ex1{
+    display: none;
+}
+p.ex2{
+    display: inline;
+}
+p.ex3{
+    display: block;
+}
+p.ex4{
+    display: inline-block;
+}
+
+ul{
+    list-style-type:circle;
+}
+ul{
+    list-style-image: url(../image/icons8-right-24.png);
+}
+li{
+    list-style-position: outside;
+}
+
+
+div.a{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    overflow: scroll;
+}
+
+div.b{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    overflow:hidden;
+}
+
+div.c{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+div.d{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    overflow: visible;
+}
+div.d{
+    opacity: 0.5;
+}
+   

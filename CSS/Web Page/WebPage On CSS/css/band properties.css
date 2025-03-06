@@ -1,0 +1,40 @@
+div {
+    background-image: url(https://www.google.com/imgres?q=%20w3css%20template%20band%20images&imgurl=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Fny.jpg&imgrefurl=https%3A%2F%2Fwww.w3schools.com%2Fw3css%2Ftryw3css_templates_band.htm&docid=VZ4ZEAcW6N2iRM&tbnid=-rfEmRic5j3BjM&vet=12ahUKEwjnwqag5PSGAxVMjK8BHUtlAN8QM3oECGIQAA..i&w=1200&h=600&hcb=2&ved=2ahUKEwjnwqag5PSGAxVMjK8BHUtlAN8QM3oECGIQAA);
+background-image: url(../Day-04/images/background/ny.jpg);
+
+
+    width: 100%;
+    border: 2px solid red;
+
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+
+}
+
+div h1{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    line-height: normal;
+    font-weight: 900;
+    font-variant: small-caps;
+}
+
+div p{
+    font-family: georgia-serif;
+    font-size: 25px;
+    font-style: italic;
+    line-height: 40px;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+section h2{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+section p{
+    text-decoration-style: dotted;
+}

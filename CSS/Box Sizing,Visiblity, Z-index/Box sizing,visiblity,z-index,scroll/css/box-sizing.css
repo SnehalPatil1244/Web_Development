@@ -1,0 +1,10 @@
+.box-sizing{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    box-sizing: border-boxs;
+    text-align: center;
+border-radius: 10px;
+box-shadow: 20px 20px 10px black;
+}

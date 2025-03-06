@@ -1,0 +1,21 @@
+.container{
+    border: solid black;
+};
+
+
+
+.pink{
+    background-color: pink;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
+.violet{
+    background-color:violet;
+}

@@ -1,0 +1,12 @@
+body{
+    background-image: url(https://www.google.com/imgres?q=nature%20images&imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F517188688%2Fphoto%2Fmountain-landscape.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DA63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8%3D&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fessential%2Fphoto%2Fmountain-landscape-gm517188688-89380423&docid=Vv2Org82l7hB3M&tbnid=oa7_1poSvrt70M&vet=12ahUKEwiE2JiGi_SGAxUsdvUHHXskCIYQM3oECGQQAA..i&w=612&h=384&hcb=2&ved=2ahUKEwiE2JiGi_SGAxUsdvUHHXskCIYQM3oECGQQAA);
+    background-image: url(../images/background/download.jpg);
+    height: 500;
+    width: 500px;
+    border: 3px solid red;
+
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+}
