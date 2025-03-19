@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="Alert plugin.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script>
+    $(function(){
+        $("#closebtn").click (function(){
+            $("#redbox").alert('close');
+        });
+            $("#redbox").on("close.bs.alert",function(){
+                alert("close");
+
+            });
+
+            $("#redbox").on("close.bs.alert",function(){
+                alert("closed");
+
+            });
+
+
+        });
+
+    
+</script>
+
+</head>
+<body>
+    <div class="container">
+        <h2 class="py-3 justify-content-center">Alert Plugin class</h2>
+        <div class="row py-3">
+            <div class="col-md-7">
+                <div class="alert alert-primary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, pariatur.
+                    <button class="close" data-dismiss="alert">
+                        X
+                    </button>
+                </div>
+
+            </div>
+            <div class="col-md-7">
+                <div class="alert alert-success">
+                    Lorem ipsum dolor sit amet<a class="alert-link" href=""> consectetur adipisicing elit</a>. Minima, pariatur.
+                </div>
+
+            </div>
+            <div class="col-md-7">
+                <div id="redbox" class="alert alert-danger">
+                    <h2 class="alert-heading">Heading goes Here</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam in blanditiis iure quibusdam labore quidem, delectus aliquid itaque nisi nostrum et dolor nobis vitae iusto qui. Odio nesciunt reprehenderit earum? Consectetur tempore fugiat, assumenda voluptatibus ratione eius voluptatem qui illum, soluta iure minus, possimus aut. Aspernatur quibusdam atque harum nemo assumenda a nihil, cum expedita corporis tenetur voluptas quos sint at accusantium laboriosam? Earum amet eveniet officia in reiciendis, itaque deserunt exercitationem blanditiis aut sequi fuga commodi quia magnam molestias totam error eligendi praesentium voluptatum accusantium voluptatem hic repellat atque. Architecto nihil ut in, voluptatibus iure reprehenderit dolorem ex odit?</p>
+
+                    <hr>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, numquam necessitatibus. Nostrum recusandae necessitatibus assumenda culpa cum repellat iusto ab!</p>
+                    <button class="btn btn-danger" id="closebtn">close</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

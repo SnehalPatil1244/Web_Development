@@ -1,0 +1,7 @@
+.container{
+    border: 5px solid black;
+}
+.col-md-4{
+    background: pink;
+    color: green;
+}
