@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body>
+    <div id="Header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo 1 .png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Snehal</span><br> Karad From Maharashtra.</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------about------------>
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a passionate and motivated Software Development graduate eager to start my professional journey. With a strong foundation in HTML, CSS, Javascript, C, C++, C#.NET, Problem Solver, Open to Global Opportunities I am enthusiastic about learning, growing, and applying my knowledge to real-world challenges.<br> During my academic journey at Sadaguru Gadage Maharaj College of Karad / Kolhapur University, I have gained hands-on experience through  Hospital Management System Using C# .NET ,Microsoft SQL Server which have enhanced my problem-solving abilities and teamwork skills. I thrive in dynamic environments and enjoy collaborating with others to achieve meaningful results. <br>I am actively seeking opportunities to leverage my skills in Software Development and contribute to innovative projects. Let’s connect and explore exciting opportunities!</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Desktop App Development</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Desktop App Development</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2023-2025</span><br>MCA From Bharati Vidhyapeeth,Pune.</li>
+                        <li><span>2020-2023</span><br>BCA From SGM College,</li>
+                    </ul>
+                </div>
+
+                <div>
+
+                
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <script>
+       var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+    for (var tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (var tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");  // Fixed this line
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");  // Show selected tab
+}
+        
+
+
+
+
+
+    </script>
+    
+    
+</body>
+</html>
